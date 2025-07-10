@@ -11,12 +11,7 @@ void TTP226_Config(void)
   /* GPIO Ports Clock Enable */
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOA);
 
-  /* Reset OUTPUT Pin*/ 
-  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_0);
-  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_1);
-  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_2);
-  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_3);
-  
+  /*     GPIO Configiratopm     */  
   /* PA0 (DO) | PA3 (DV) - Input pull-up */
   GPIO_InitStruct.Pin = LL_GPIO_PIN_0 | LL_GPIO_PIN_3;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
@@ -31,6 +26,11 @@ void TTP226_Config(void)
   GPIO_InitStruct.Pull       = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+  /* Reset OUTPUT Pin*/ 
+  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_0);
+  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_1);
+  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_2);
+  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_3);
 }
 
 uint8_t TTP226_Read(void)
