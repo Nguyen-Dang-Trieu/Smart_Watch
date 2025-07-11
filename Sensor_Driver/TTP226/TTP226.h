@@ -9,7 +9,9 @@
  */
 
 void TTP226_Init();
-void TTP226_Config(uint32_t DO, uint32_t CLK, uint32_t RST, uint32_t DV);
+void TTP226_Config();
+void TTP226_GPIO_Config();
+void TTP226_EXTI_Config();
 uint8_t TTP226_Read();
 
 #endif // TTP226_h
