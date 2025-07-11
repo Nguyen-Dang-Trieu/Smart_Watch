@@ -18,6 +18,4 @@ Linh kiện
 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
-dự án giám sát cây trồng phát triển
-
-thêm nrf24l01 để giao tiếp từ xa.
+Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON
