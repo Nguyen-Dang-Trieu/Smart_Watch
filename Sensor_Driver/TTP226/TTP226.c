@@ -10,7 +10,7 @@ void TTP226_Config()
     TTP226_EXTI_Config();
 }
 
-void TTP226_Config(void)
+void TTP226_GPIO_Config(void)
 {
     LL_GPIO_InitTypeDef GPIO_InitStruct = {0};
   
@@ -18,13 +18,12 @@ void TTP226_Config(void)
     LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOA);
     LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_AFIO);    // Kích hoạt xung nhịp cho AFIO
 
-    /*     GPIO Configiratopm     */  
+    /* === GPIO Configiratopm === */  
     
     /* Reset OUTPUT Pin*/ 
     LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_1);
     LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_2);
-    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_3);    
-    
+  
     /* PA0 (DO) | PA3 (DV) - Input pull-up */
     GPIO_InitStruct.Pin     = LL_GPIO_PIN_0 | LL_GPIO_PIN_3;
     GPIO_InitStruct.Mode    = LL_GPIO_MODE_INPUT;
@@ -43,24 +42,36 @@ void TTP226_Config(void)
 
 void TTP226_EXTI_Config()
 {
-    // Liên kết EXIT Line 0 với Pin PA0
-    LL_GPIO_AF_SetEXTISource(LL_GPIO_AF_EXTI_PORTA, LL_GPIO_AF_EXTI_LINE0);
+    // Liên kết EXIT Line 3 với Pin PA3
+    LL_GPIO_AF_SetEXTISource(LL_GPIO_AF_EXTI_PORTA, LL_GPIO_AF_EXTI_LINE3);
 
-    // Cấu hình EXIT Line 0
+    // Cấu hình EXIT Line 3
     LL_EXTI_InitTypeDef EXTI_InitStruct = {0};
-    EXTI_InitStruct.Line_0_31      = LL_EXTI_LINE_0;
-    EXTI_InitStruct.LineCommand    = ENABLE;
-    EXTI_InitStruct.Mode           = LL_EXTI_MODE_IT; // Interrupt mode
+    EXTI_InitStruct.Line_0_31      = LL_EXTI_LINE_3;
+    EXTI_InitStruct.LineCommand    = ENABLE;                  // Active EXTI
+    EXTI_InitStruct.Mode           = LL_EXTI_MODE_IT;         // Interrupt mode
     EXTI_InitStruct.Trigger        = LL_EXTI_TRIGGER_FALLING;
-    LL_EXTI_Init(&exti_init);
+    LL_EXTI_Init(&EXTI_InitStruct);
 
-    // Bật NVIC cho EXTI0
-    NVIC_SetPriority(EXTI0_IRQn, 0);
-    NVIC_EnableIRQ(TTP226_ReadData_EXTI0_IRQHandler);
+    // Bật NVIC cho EXTI3
+    NVIC_SetPriority(EXTI3_IRQn, 0);
+    NVIC_EnableIRQ(EXTI3_IRQn);
 }
 
-uint8_t TTP226_ReadData_EXTI0_IRQHandler(void)
+void TTP226_ReadData(void)
 {
-  
+    // Từ từ sẽ code sau
 }
 
+void EXTI3_IRQHandler(void)
+{
+    // 1. Check Interrtup Flag
+    if (LL_EXTI_IsActiveFlag_0_31(LL_EXTI_LINE_3) != RESET)
+    {
+        // 2. Clear Interrupt Flag
+        LL_EXTI_ClearFlag_0_31(LL_EXTI_LINE_3);
+        
+        // 3. Interrup Handling
+        TTP226_ReadData();
+    }
+}
