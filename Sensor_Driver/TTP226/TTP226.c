@@ -77,7 +77,7 @@ uint8_t TTP226_ReadData(void)
         LL_mDelay(62); // 62 us
 
         Data >>= 1;
-        if(LL_GPIO_Read(GPIOA, LL_GPIO_PIN_0) == HIGH)
+        if(LL_GPIO_IsInputPinSet(GPIOA, LL_GPIO_PIN_0) == 1)
         {
             Data |= 0x80;    
         }
