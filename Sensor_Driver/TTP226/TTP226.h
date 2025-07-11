@@ -2,7 +2,11 @@
 #define TTP226_H
 
 #include <stdint.h>
-#include "stm32f1xx.h"
+#include "stm32f1xx_ll_bus.h"
+#include "stm32f1xx_ll_system.h"
+#include "stm32f1xx_ll_utils.h"
+#include "stm32f1xx_ll_gpio.h"
+#include "stm32f1xx_ll_exti.h"
 
 /*
  * DO - PA0, CLK - PA1, RST - PA2, DV - PA3.
