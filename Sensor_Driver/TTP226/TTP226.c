@@ -3,6 +3,8 @@
 void TTP226_Init(void)
 {
     TTP226_Config();
+    
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_1);
 }
 void TTP226_Config()
 {
@@ -58,9 +60,33 @@ void TTP226_EXTI_Config()
     NVIC_EnableIRQ(EXTI3_IRQn);
 }
 
-void TTP226_ReadData(void)
+uint8_t TTP226_ReadData(void)
 {
-    // Từ từ sẽ code sau
+    uint8_t Data = 0;
+
+    /* Reset TTP226 */
+    LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_2);
+    LL_mDelay(62); // 62 us
+    LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_2);
+    LL_mDelay(62); // 62 us
+
+    /* Read data from TTP226 (D0 -> D7) */
+    for(uint8_t i = 0; i < 8; i++)
+    {
+        LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_1);
+        LL_mDelay(62); // 62 us
+
+        Data >>= 1;
+        if(LL_GPIO_Read(GPIOA, LL_GPIO_PIN_0) == HIGH)
+        {
+            Data |= 0x80;    
+        }
+
+        LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_1);
+        LL_mDelay(62); // 62 us
+    }
+
+    return Data;
 }
 
 void EXTI3_IRQHandler(void)
