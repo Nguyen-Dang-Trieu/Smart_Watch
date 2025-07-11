@@ -1,9 +1,10 @@
 # Smart Watch
 
-Ghi chú sử dụng thư viện LL trong stm32: https://viblo.asia/p/su-dung-ll-library-37LdeNXMVov
+## Tài liệu
+- Ghi chú sử dụng thư viện LL trong stm32: https://viblo.asia/p/su-dung-ll-library-37LdeNXMVov
+- Kiến thức về STM32F103: https://www.notion.so/STM32F103x-217555493c6080afb24bca6f639818be
 
-
-Linh kiện
+## Thiết bị
 
 - stm32
 - ttp226
