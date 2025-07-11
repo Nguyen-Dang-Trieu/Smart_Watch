@@ -4,6 +4,10 @@
 #include <stdint.h>
 #include "stm32f1xx_ll_rcc.h"
 #include "stm32f1xx_ll_gpio.h"
+#include "stm32f1xx_ll_exti.h"
+#include "stm32f1xx_ll_system.h"
+#include "stm32f1xx_ll_utils.h"    // LL_mDelay()
+
 /*
  * DO - PA0, CLK - PA1, RST - PA2, DV - PA3.
  */
