@@ -2,6 +2,8 @@
 
 // Tham khảo trang web để có thể tạo delay :https://deepbluembedded.com/stm32-delay-microsecond-millisecond-utility-dwt-delay-timer-delay/ 
 
+// Đang ở chế độ busy wait.
+
 void LL_TimerDelay_Init()
 {
   // Bật clock cho TIMER 4
