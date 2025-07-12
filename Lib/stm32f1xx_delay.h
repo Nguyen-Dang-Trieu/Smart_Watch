@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-void TimerDelay_Init();
+void LL_TimerDelay_Init();
 void LL_delay_us(uint16_t value);
 void LL_delay_ms(uint16_t value);
 
