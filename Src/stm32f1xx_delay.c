@@ -29,12 +29,12 @@ void LL_TimerDelay_Init()
 void LL_delay_us(uint16_t value_us)
 {
   LL_TIM_SetCounter(TIM4, 0);
-  while (LL_TIM_GetCounter(TIM4) < us);
+  while (LL_TIM_GetCounter(TIM4) < value_us);
 }
 
 void LL_delay_ms(uint16_t value_ms)
 {
-  while (ms--)
+  while (value_ms--)
   {
     delay_us(1000);  // mỗi lần 1000 µs = 1 ms
   }
