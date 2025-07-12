@@ -36,6 +36,6 @@ void LL_delay_ms(uint16_t value_ms)
 {
   while (value_ms--)
   {
-    delay_us(1000);  // mỗi lần 1000 µs = 1 ms
+    LL_delay_us(1000);  // mỗi lần 1000 µs = 1 ms
   }
 }
