@@ -89,6 +89,7 @@ uint8_t TTP226_ReadData(void)
     return Data;
 }
 
+/* Phần này sẽ được sử dụng trong main.c
 void EXTI3_IRQHandler(void)
 {
     // 1. Check Interrtup Flag
@@ -101,3 +102,4 @@ void EXTI3_IRQHandler(void)
         TTP226_ReadData();
     }
 }
+*/
