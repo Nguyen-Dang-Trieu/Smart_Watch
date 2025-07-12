@@ -1,4 +1,10 @@
-#ifndef _DELAY_H
-#define _DELAY_H
+#ifndef TIMER_DELAY_H
+#define TIMER_DELAY_H
 
-#endif // _DELAY_H
+#include <stdint.h>
+
+void TimerDelay_Init();
+void LL_delay_us(uint16_t value);
+void LL_delay_ms(uint16_t value);
+
+#endif // TIMER_DELAY_H
