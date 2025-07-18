@@ -20,3 +20,5 @@
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
 Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON
+
+https://github.com/microsoft/IoT-For-Beginners/tree/main
