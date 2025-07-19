@@ -11,7 +11,7 @@
 - nhip tim: Max30100
 - MPU6050
 - cảm biến nhiệt độ: DS18B20
-- EEPROM: ic2431, DS2408 (ic mở rộng port)
+- EEPROM: ic2431
 - esp32-s3: wifi, ble
 - màn hình st7789
 - sd card (spi)
