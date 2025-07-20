@@ -1,21 +1,30 @@
 # Smart Watch
 
 ## Tài liệu
-- Ghi chú sử dụng thư viện LL trong stm32: https://viblo.asia/p/su-dung-ll-library-37LdeNXMVov
+
 - Kiến thức về STM32F103: https://www.notion.so/STM32F103x-217555493c6080afb24bca6f639818be
 
-## Thiết bị
+## 📌 Introduction
 
-- stm32
-- ttp226
-- nhip tim: Max30100
-- MPU6050
-- cảm biến nhiệt độ: DS18B20
-- EEPROM: ic2431
-- esp32-s3: wifi, ble
-- màn hình st7789
-- sd card (spi)
-- Dùng freeRTOS để quản lí các task
+giới thiệu vê dự án smart watch
+
+## 📖 Description
+
+## 🛠️ Devices
+
+| Device Name      | Library Completed  | Check   | 
+| :--------------- | :----------------: | :-----: | 
+| STM32F103C8T6    |       ✔️          | ✔️      | 
+| ESP32            |       ❌          | ❌      |
+| TTP226           |       ✔️          | ✔️      | 
+| DS18B20 (One-Wire)|       ✔️          | ✔️      |
+| MAX30100         |       ❌          | ❌      |
+| MPU6050          |       ❌          | ❌      |
+| LCD ST7789       |       ❌          | ❌      |
+| SD CARD (SPI)    |       ❌          | ❌      |
+| JSON             |       ❌          | ❌      |
+| FreeRTOS         |       ✔️          | ❌      |
+
 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
