@@ -101,7 +101,7 @@ void OneWire_WriteBit(uint8_t bit)
  */
 uint8_t OneWire_ReadBit(void)
 {
-	uint8_t result;
+	uint8_t bit;
 
 	// The master initiates "read time slots"
 	LL_GPIO_SetPinMode(GPIOA, LL_GPIO_PIN_4, LL_GPIO_MODE_OUTPUT);
@@ -119,7 +119,7 @@ uint8_t OneWire_ReadBit(void)
 
 	LL_delay_us(53);
 
-	return result;
+	return bit;
 }
 
 
@@ -232,6 +232,7 @@ uint8_t OneWire_crc8(const uint8_t *addr, uint8_t len)
 
     return crc;
 }
+
 #else
 
 uint8_t OneWire_crc8(const uint8_t *addr, uint8_t len)
@@ -255,6 +256,3 @@ uint8_t OneWire_crc8(const uint8_t *addr, uint8_t len)
 #endif // ONEWIRE_CRC8_TABLE
 
 #endif // ONEWIRE_CRC
-
-#endif
-
