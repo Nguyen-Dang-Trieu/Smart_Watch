@@ -10,7 +10,7 @@ giới thiệu vê dự án smart watch
 
 ## 📖 Description
 
-## 🛠️ Devices
+## 🛠️ Driver library
 
 | Device Name      | Library Completed  | Check   | 
 | :--------------- | :----------------: | :-----: | 
