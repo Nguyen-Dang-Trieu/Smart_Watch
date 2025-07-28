@@ -13,15 +13,17 @@ giới thiệu vê dự án smart watch
 ## 🛠️ Devices
 ### 1. Hardware
 
-| STT     |        Name           | Price   |
-| :-----: | :-------------------- | :------:|
-|    1    | Raspberrby 3B+        |    💰   | 
-|    2    | Arduino Uno           |    💰   | 
-|    3    | DHT22                 |    💰   |  
-|    4    | BH1750                |    💰   |   
-|    5    | Soil moisture         |    💰   | 
-|    6    | DC water pump motor   |    💰   | 
-|    7    | Module Relay 5V       |    💰   |  
+| STT     |        Name           | 
+| :-----: | :-------------------- | 
+|    1    | STM32F103C8T6         |   
+|    2    | ESP32                 |  
+|    3    | TTP226                |    
+|    4    | DS18B20               |   
+|    5    | MAX30102              |  
+|    6    | MPU6050               |
+|    7    | LCD ST7789            | 
+|    7    | SD CARD (SPI)         |  
+|    7    | LCD ST7789            |  
 
 ### 2. Driver Lib
 | Device Name           | Library Completed  | Check   |  API     |
@@ -30,21 +32,12 @@ giới thiệu vê dự án smart watch
 | DS18B20               |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
 
 ### 3. Software Lib
-| OneWire               |       ✔️          |    ✔️   |          |
+| Protocal Name         | Library Completed  | Check   |  API     |
+| :-------------------- | :----------------: | :-----: | :-----:  |
+| OneWire               |       ✔️          |    ✔️   |  Detail        |
+| JSON                  |       ❌          |    ❌   |  Detail        |
+| FreeRTOS              |       ✔️          |    ✔️   |     ⚠️     |
 
-
-| Device Name      | Library Completed  | Check   | 
-| :--------------- | :----------------: | :-----: | 
-| STM32F103C8T6    |       ✔️          | ✔️      | 
-| ESP32            |       ❌          | ❌      |
-| TTP226           |       ✔️          | ✔️      | 
-| DS18B20 (One-Wire)|       ✔️          | ✔️      |
-| MAX30100         |       ❌          | ❌      |
-| MPU6050          |       ❌          | ❌      |
-| LCD ST7789       |       ❌          | ❌      |
-| SD CARD (SPI)    |       ❌          | ❌      |
-| JSON             |       ❌          | ❌      |
-| FreeRTOS         |       ✔️          | ❌      |
 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
