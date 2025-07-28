@@ -10,7 +10,28 @@ giới thiệu vê dự án smart watch
 
 ## 📖 Description
 
-## 🛠️ Driver library
+## 🛠️ Devices
+### 1. Hardware
+
+| STT     |        Name           | Price   |
+| :-----: | :-------------------- | :------:|
+|    1    | Raspberrby 3B+        |    💰   | 
+|    2    | Arduino Uno           |    💰   | 
+|    3    | DHT22                 |    💰   |  
+|    4    | BH1750                |    💰   |   
+|    5    | Soil moisture         |    💰   | 
+|    6    | DC water pump motor   |    💰   | 
+|    7    | Module Relay 5V       |    💰   |  
+
+### 2. Driver Lib
+| Device Name           | Library Completed  | Check   |  API     |
+| :-------------------- | :----------------: | :-----: | :-----:  |
+| TTP226                |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Plant-water/blob/main/Doc/ATmega328p_API.md) |
+| DS18B20               |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
+
+### 3. Software Lib
+| OneWire               |       ✔️          |    ✔️   |          |
+
 
 | Device Name      | Library Completed  | Check   | 
 | :--------------- | :----------------: | :-----: | 
@@ -24,7 +45,6 @@ giới thiệu vê dự án smart watch
 | SD CARD (SPI)    |       ❌          | ❌      |
 | JSON             |       ❌          | ❌      |
 | FreeRTOS         |       ✔️          | ❌      |
-
 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
