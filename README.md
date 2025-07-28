@@ -32,13 +32,13 @@ giới thiệu vê dự án smart watch
 | DS18B20               |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
 
 ### 3. Software Lib
-| Protocal Name         | Library Completed  | Check   |  API     |
+| Name                  | Library Completed  | Check   |  API     |
 | :-------------------- | :----------------: | :-----: | :-----:  |
 | OneWire               |       ✔️          |    ✔️   |  Detail        |
 | JSON                  |       ❌          |    ❌   |  Detail        |
 | FreeRTOS              |       ✔️          |    ✔️   |     ⚠️     |
 
-
+## 🔎Reference 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 
 Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON và ArduinoJson
