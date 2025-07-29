@@ -34,9 +34,11 @@ giới thiệu vê dự án smart watch
 ### 3. Software Lib
 | Name                  | Library Completed  | Check   |  API     |
 | :-------------------- | :----------------: | :-----: | :-----:  |
-| OneWire               |       ✔️          |    ✔️   |  Detail        |
-| JSON                  |       ❌          |    ❌   |  Detail        |
+| OneWire               |       ✔️          |    ✔️   |  Detail  |
+| JSON                  |       ❌          |    ❌   |  Detail  |
 | FreeRTOS              |       ✔️          |    ✔️   |     ⚠️     |
+| OTA                   |       ❌          |    ❌   |     ⚠️     |
+
 
 ## 🔎Reference 
 gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
