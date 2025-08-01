@@ -41,10 +41,9 @@ giới thiệu vê dự án smart watch
 
 
 ## 🔎Reference 
-gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
-
-Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON và ArduinoJson
-
-https://github.com/microsoft/IoT-For-Beginners/tree/main
-
-giao diện dồng hồ với RTC: https://www.youtube.com/watch?v=35Z0enhEYqM
+- gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
+- Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON và ArduinoJson
+- https://github.com/microsoft/IoT-For-Beginners/tree/main
+- giao diện dồng hồ với RTC: https://www.youtube.com/watch?v=35Z0enhEYqM
+- https://github.com/ZSWatch/ZSWatch
+- https://github.com/fbiego
