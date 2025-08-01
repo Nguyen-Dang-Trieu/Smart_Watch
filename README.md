@@ -47,3 +47,4 @@ giới thiệu vê dự án smart watch
 - giao diện dồng hồ với RTC: https://www.youtube.com/watch?v=35Z0enhEYqM
 - https://github.com/ZSWatch/ZSWatch
 - https://github.com/fbiego
+- Màn hình tròn, cảm ứng: https://www.proe.vn/1-28inch-touch-lcd
