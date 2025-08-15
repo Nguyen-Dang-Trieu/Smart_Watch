@@ -23,7 +23,7 @@ giới thiệu vê dự án smart watch
 |    6    | MPU6050               |
 |    7    | LCD ST7789            | 
 |    7    | SD CARD (SPI)         |  
-|    7    | LCD ST7789            |  
+|    7    | BMP280                |  
 
 ### 2. Driver Lib
 | Device Name           | Library Completed  | Check   |  API     |
