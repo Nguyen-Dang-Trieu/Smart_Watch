@@ -48,3 +48,4 @@ giới thiệu vê dự án smart watch
 - https://github.com/ZSWatch/ZSWatch
 - https://github.com/fbiego
 - Màn hình tròn, cảm ứng: https://www.proe.vn/1-28inch-touch-lcd
+- Filesystem SPIFFS stm32 + freeRTOS: cần thiết kế thread safe.
