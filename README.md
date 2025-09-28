@@ -5,15 +5,24 @@
 - Kiến thức về STM32F103: https://www.notion.so/STM32F103x-217555493c6080afb24bca6f639818be
 
 ## 📌 Introduction
-giới thiệu vê dự án smart watch
 
-Hiện tại dự án này đang trong quá trình phát triển nên còn nhiều hạn chế. Đọc giả cần lưu ý
+Dự án Smart Watch này hiện vẫn đang trong quá trình phát triển nên chắc chắn còn nhiều hạn chế, mong bạn đọc thông cảm.
 
-Mục dích: Dự án này được tạo ra nhằm cải thiện khả năng code, học về kiến thức chuyên sâu về vdk và hệ điều hành, giao tiếp, thiết kế hệ thống embedded và đồng thời cũng là dự án để tôi có thể dùng trong xin việc.
+### Mục đích
+Dự án được thực hiện nhằm:
+- Nâng cao kỹ năng lập trình embedded.
+- Tìm hiểu sâu hơn về vi điều khiển, hệ điều hành, giao tiếp và thiết kế hệ thống nhúng.
+- Làm một sản phẩm mẫu phục vụ cho mục tiêu xin việc trong tương lai.
 
-Ý tưởng: Thay vì sử dụng một con cpu hay vxl 2 lỗi có sẵn. Thì ở đây tôi dùng:
-- STM32F103C8T6: làm lỗi xử lí những việc giao tiếp với cảm biến với môi trường.
-- ESP32: UI + Iot.
+### Ý tưởng
+Thay vì sử dụng một CPU đa lõi tích hợp sẵn, tôi kết hợp **hai vi điều khiển** để tạo thành hệ thống “đa lõi”:
+- **STM32F103C8T6**: chịu trách nhiệm giao tiếp với các cảm biến và môi trường bên ngoài.
+- **ESP32**: xử lý phần giao diện người dùng (UI) và kết nối IoT.
+
+#### Giao tiếp giữa STM32 và ESP32
+Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây **STM32** và **ESP32** trao đổi dữ liệu qua **UART + DMA**.  
+Để chuẩn hóa định dạng gói tin, tôi sử dụng và rework lại thư viện mã nguồn mở **SerialTransfer**, biến nó thành một phiên bản “customized” phù hợp hoàn toàn với yêu cầu của dự án.
+
 
 ## 📖 Description
 
