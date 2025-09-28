@@ -5,8 +5,15 @@
 - Kiến thức về STM32F103: https://www.notion.so/STM32F103x-217555493c6080afb24bca6f639818be
 
 ## 📌 Introduction
-
 giới thiệu vê dự án smart watch
+
+Hiện tại dự án này đang trong quá trình phát triển nên còn nhiều hạn chế. Đọc giả cần lưu ý
+
+Mục dích: Dự án này được tạo ra nhằm cải thiện khả năng code, học về kiến thức chuyên sâu về vdk và hệ điều hành, giao tiếp, thiết kế hệ thống embedded và đồng thời cũng là dự án để tôi có thể dùng trong xin việc.
+
+Ý tưởng: Thay vì sử dụng một con cpu hay vxl 2 lỗi có sẵn. Thì ở đây tôi dùng:
+- STM32F103C8T6: làm lỗi xử lí những việc giao tiếp với cảm biến với môi trường.
+- ESP32: UI + Iot.
 
 ## 📖 Description
 
@@ -49,3 +56,4 @@ giới thiệu vê dự án smart watch
 - https://github.com/fbiego
 - Màn hình tròn, cảm ứng: https://www.proe.vn/1-28inch-touch-lcd
 - Filesystem SPIFFS stm32 + freeRTOS: cần thiết kế thread safe. https://github.com/pellepl/spiffs
+- https://github.com/PowerBroker2/SerialTransfer: thư viện để chuẩn hóa việc truyền dữ liệu của STM32 và ESP32
