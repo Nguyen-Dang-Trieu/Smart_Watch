@@ -8,9 +8,7 @@ void DS18B20_Init()
 // Device Information
 /**
  * @brief Kiểm tra xem cảm biến DS18B20 có đang kết nối và phản hồi dữ liệu hợp lệ không
- * 
  * @param scratchPad Bộ nhớ 9 byte chứa dữ liệu từ DS18B20
- * 
  * @return true nếu
  *         - Đọc được scratchpad thành công
  *         - Dữ liệu không toàn số 0
