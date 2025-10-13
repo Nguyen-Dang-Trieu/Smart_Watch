@@ -36,7 +36,7 @@ Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây 
 |    3    | TTP226                |    
 |    4    | DS18B20               |   
 |    5    | MAX30102              |  
-|    6    | MPU6050               |
+|    6    | MPU9250               |
 |    7    | LCD ST7789            | 
 |    7    | SD CARD (SPI)         |  
 |    7    | BMP280                |  
