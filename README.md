@@ -56,6 +56,9 @@ Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây 
 | OTA                   |       ❌          |    ❌   |     ⚠️     |
 
 
+
+Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Madgwick_Filter/blob/master/Teensy/MPU9250/MPU9250_Madwick_Filter/MPU9250.h
+
 ## 🔎Reference 
 - gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
 - Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON và ArduinoJson
