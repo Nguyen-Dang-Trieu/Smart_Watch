@@ -67,5 +67,5 @@ Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Mad
 - https://github.com/ZSWatch/ZSWatch
 - https://github.com/fbiego
 - Màn hình tròn, cảm ứng: https://www.proe.vn/1-28inch-touch-lcd
-- Filesystem SPIFFS stm32 + freeRTOS: cần thiết kế thread safe. https://github.com/pellepl/spiffs
+- Filesystem SPIFFS stm32 + freeRTOS: cần thiết kế thread safe. https://github.com/pellepl/spiffs + AT45DB161D-SU IC Nhớ Flash 16Mbit 8-SOIC
 - https://github.com/PowerBroker2/SerialTransfer: thư viện để chuẩn hóa việc truyền dữ liệu của STM32 và ESP32
