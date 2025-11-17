@@ -1,0 +1,47 @@
+# ========================
+# STM32 Keil MDK-ARM
+# ========================
+core1_stm/**/Debug/
+core1_stm/**/Release/
+core1_stm/**/Objects/
+core1_stm/**/Listings/
+
+*.axf
+*.elf
+*.hex
+*.bin
+*.o
+*.crf
+*.d
+*.lst
+*.uvguix.*
+*.uvoptx.bak
+*.uvprojx.bak
+*.build_log
+
+# ========================
+# ESP32 IDF
+# ========================
+core2_esp/build/
+*.bin
+*.elf
+*.map
+sdkconfig.old
+
+# VSCode settings
+.vscode/
+
+# CMake
+core2_esp/CMakeFiles/
+core2_esp/CMakeCache.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# System
+Thumbs.db
+desktop.ini

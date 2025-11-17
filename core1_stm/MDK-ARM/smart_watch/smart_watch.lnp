@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+"smart_watch\startup_stm32f103xb.o"
+"smart_watch\main.o"
+"smart_watch\stm32f1xx_it.o"
+"smart_watch\stm32f1xx_ll_gpio.o"
+"smart_watch\stm32f1xx_ll_pwr.o"
+"smart_watch\stm32f1xx_ll_exti.o"
+"smart_watch\stm32f1xx_ll_rcc.o"
+"smart_watch\stm32f1xx_ll_utils.o"
+"smart_watch\system_stm32f1xx.o"
+--strict --scatter "smart_watch\smart_watch.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "smart_watch.map" -o smart_watch\smart_watch.axf
