@@ -9,5 +9,3 @@
 void LL_TimerDelay_Init();
 void LL_delay_us(uint16_t value_us);
 void LL_delay_ms(uint16_t value_ms);
-
-#endif // STM32F1xx_DELAY_H
