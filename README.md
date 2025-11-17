@@ -1,32 +1,38 @@
 # Smart Watch
+## Introduction
+Dự án Smart Watch này được xây dựng từ đầu, cả hardware và software sử dụng hệ điều hành freeRTOS để chạy trực tiếp trên 2 core.
 
-## Tài liệu
+📌Note:   
+Nếu nhìn vào dự án này, bạn có thể suy nghĩ là những phần cứng tôi sử dụng hiện tại thì khá là "lớn" so với một chiếc smart watch. Tuy nhiên ở đây, trong giai đoạn đầu của dự án, tôi chỉ muốn tập trung vào phát triển phần mềm và ứng dụng nên chỉ sử dụng những phần cứng có sẵn, dễ dàng tiếp cận ở trên thị
+trường để có thể hoàn thiện những tính năng cơ bản mong muốn trước. Sau khi phần mềm đã ổn định, thì tôi sẽ quan tâm và thiết kế lại phần cứng cho phù hợp hơn với một chiếc smart watch.
 
-- Kiến thức về STM32F103: https://www.notion.so/STM32F103x-217555493c6080afb24bca6f639818be
 
-## 📌 Introduction
-
-Dự án Smart Watch này hiện vẫn đang trong quá trình phát triển nên chắc chắn còn nhiều hạn chế, mong bạn đọc thông cảm.
-
-### Mục đích
-Dự án được thực hiện nhằm:
-- Nâng cao kỹ năng lập trình embedded.
-- Tìm hiểu sâu hơn về vi điều khiển, hệ điều hành, giao tiếp và thiết kế hệ thống nhúng.
-- Làm một sản phẩm mẫu phục vụ cho mục tiêu xin việc trong tương lai.
-
-### Ý tưởng
-Thay vì sử dụng một CPU đa lõi tích hợp sẵn, tôi kết hợp **hai vi điều khiển** để tạo thành hệ thống “đa lõi”:
+### Mục đích, ý tưởng thiết kế
+Để học hỏi sâu hơn về stm32 và esp32, thay vì sử dụng một CPU đa lõi tích hợp sẵn, tôi kết hợp **hai vi điều khiển này** để tạo thành hệ thống “đa lõi”:
 - **STM32F103C8T6**: chịu trách nhiệm giao tiếp với các cảm biến và môi trường bên ngoài.
 - **ESP32**: xử lý phần giao diện người dùng (UI) và kết nối IoT.
 
 #### Giao tiếp giữa STM32 và ESP32
-Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây **STM32** và **ESP32** trao đổi dữ liệu qua **UART + DMA**.  
-Để chuẩn hóa định dạng gói tin, tôi sử dụng và rework lại thư viện mã nguồn mở **SerialTransfer**, biến nó thành một phiên bản “customized” phù hợp hoàn toàn với yêu cầu của dự án.
+Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây **STM32** và **ESP32** trao đổi dữ liệu. Để chuẩn hóa định dạng gói tin, tôi đã triển khai một thư viện gọi là "InCore".
 
+Những tính năng của thư viện "InCore":
+- Định dạng gói tin dưới dạng packet:
+~~~
+  Cấu trúc của Packet:
+  [Start byte] [Packet ID] [payload length byte] [Payload bytes ... ] [8-bit CRC] [Stop byte].
+
+  Trong đó:
+  - Start byte: 1 byte có giá trị cố định là 0x7E
+  - Packet ID: 1 byte định danh gói tin, mặc định là 0
+  - payload length byte: 1 byte xác định số byte dữ liệu đã được mã hóa COBS trong packet
+  - Payload bytes: Dữ liệu thực tế được truyền đi, tối đa 254 byte
+  - 8-bit CRC: 1 byte kiểm tra lỗi dữ liệu
+  - Stop byte: 1 byte có giá trị cố định là 0x81
+~~~
+- Check error: CRC8
+- Consistent Overhead Byte Stuffing: thuật toán để đóng gói dữ liệu mà không chứa byte `0x00`
 
 ## 📖 Description
-
-## 🛠️ Devices
 ### 1. Hardware
 
 | STT     |        Name           | 
@@ -42,26 +48,17 @@ Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây 
 |    7    | BMP280                |  
 
 ### 2. Driver Lib
+Đây là thông tin về API để sử dụng với từng loại driver hiện có trong dự án.
 | Device Name           | Library Completed  | Check   |  API     |
 | :-------------------- | :----------------: | :-----: | :-----:  |
 | TTP226                |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Plant-water/blob/main/Doc/ATmega328p_API.md) |
 | DS18B20               |       ✔️          |    ✔️   |  [Detail](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
 
-### 3. Software Lib
-| Name                  | Library Completed  | Check   |  API     |
-| :-------------------- | :----------------: | :-----: | :-----:  |
-| OneWire               |       ✔️          |    ✔️   |  Detail  |
-| JSON                  |       ❌          |    ❌   |  Detail  |
-| FreeRTOS              |       ✔️          |    ✔️   |     ⚠️     |
-| OTA                   |       ❌          |    ❌   |     ⚠️     |
 
 
-
-Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Madgwick_Filter/blob/master/Teensy/MPU9250/MPU9250_Madwick_Filter/MPU9250.h
 
 ## 🔎Reference 
-- gửi data dạng JSON, STM32F103C8T6 gửi dữ liệu qua ESP32 thông qua UART kết hợp DMA
-- Tìm hiểu cách viết thư viện JSON: https://github.com/DaveGamble/cJSON và ArduinoJson
+- Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Madgwick_Filter/blob/master/Teensy/MPU9250/MPU9250_Madwick_Filter/MPU9250.h
 - https://github.com/microsoft/IoT-For-Beginners/tree/main
 - giao diện dồng hồ với RTC: https://www.youtube.com/watch?v=35Z0enhEYqM
 - https://github.com/ZSWatch/ZSWatch
