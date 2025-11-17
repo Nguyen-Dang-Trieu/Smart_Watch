@@ -51,7 +51,7 @@ Những tính năng của thư viện "InCore":
 | TTP226                |       ✔️   |    ✔️   |  [Chi tiết](https://github.com/Nguyen-Dang-Trieu/Plant-water/blob/main/Doc/ATmega328p_API.md) |
 | DS18B20               |       ✔️   |    ✔️   |  [Chi tiết](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
 
-## Chạy dự án
+## Hướng dẫn triển khai
 ### STM32 (Core 1)
 - Mở Keil C → thư mục `cor1_stm`.
 - Copy những driver cần thiết.
