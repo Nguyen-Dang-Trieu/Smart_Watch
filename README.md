@@ -2,7 +2,7 @@
 ## I. Overview
 The **Smart Watch** project is a from-scratch embedded system, covering both hardware design and firmware development. The system is built on **FreeRTOS** and follows a distributed **dual-core architecture**, where processing is divided across two microcontrollers.
 
-> 📌 **Note** 
+> 📌 **Note**    
 > In the early development phase, off-the-shelf hardware modules are used to accelerate software development and system validation. Once the firmware architecture is stabilized, the hardware will be redesigned and optimized to meet actual smartwatch constraints.
 
 
@@ -12,8 +12,8 @@ The **Smart Watch** project is a from-scratch embedded system, covering both har
 </p>
 
 To gain deeper practical experience with both **STM32** and **ESP32**, instead of using a **single multi-core MCU**, the system is designed using **two independent microcontrollers**, forming a logically dual-core system:
-- STM32F103C8T6: Responsible for sensor interfacing and interaction with external peripherals.
-- ESP32: Handles user interface (UI), high-level data processing, and IoT connectivity.
+- **STM32F103C8T6**: Responsible for sensor interfacing and interaction with external peripherals.
+- **ESP32**: Handles user interface (UI), high-level data processing, and IoT connectivity.
 
 <p align="center">
   <img src="./images/System Architecture_2.png" width="500">
@@ -22,7 +22,7 @@ The image above shows the scope of modules managed by each microcontroller.
 
 The project contains many modules. For detailed information about any module, please refer to the corresponding folder in the `doc` directory.
 
-> 📌 Note
+> 📌 **Note**   
 > The project is still under active development. If detailed documentation for a module is not yet available, please be patient. The documentation is continuously updated to help you better understand the project.
 
 
@@ -48,7 +48,7 @@ ESP32 (Logical Core 2)
 - Include the required driver modules.
 - Build and flash the firmware to the ESP32.
 
-## V. 🔥 Hướng phát triển
+## V. 🔥 Future Development
 - Replace STM32 + ESP32 with STM32WB dual-core MCU as the main processor. 
 - Replace FreeRTOS with a **custom OS tailored specifically for smartwatch functionality**. 
 - Basic filesystem is functional but not fully optimized; needs improvement for safe shutdown and power-off handling.
