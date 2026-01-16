@@ -1,42 +1,30 @@
 # ⌚ Smart Watch Project
 ## I. Overview
-The **Smart Watch** project is a from-scratch embedded system, covering both hardware design and firmware development. The system is built on FreeRTOS and follows a distributed dual-core architecture, where processing is divided across two microcontrollers.
+The **Smart Watch** project is a from-scratch embedded system, covering both hardware design and firmware development. The system is built on **FreeRTOS** and follows a distributed **dual-core architecture**, where processing is divided across two microcontrollers.
 
-> 📌 Note:  
+> 📌 **Note** 
 > In the early development phase, off-the-shelf hardware modules are used to accelerate software development and system validation. Once the firmware architecture is stabilized, the hardware will be redesigned and optimized to meet actual smartwatch constraints.
 
 
 ## II. System Architecture
 <p align="center">
-  <img src="./images/System Architecture.png" width="300">
+  <img src="./images/System Architecture.png" width="500">
 </p>
 
-To gain deeper practical experience with both STM32 and ESP32, instead of using a **single multi-core MCU**, the system is designed using **two independent microcontrollers**, forming a logically dual-core system:
+To gain deeper practical experience with both **STM32** and **ESP32**, instead of using a **single multi-core MCU**, the system is designed using **two independent microcontrollers**, forming a logically dual-core system:
 - STM32F103C8T6: Responsible for sensor interfacing and interaction with external peripherals.
 - ESP32: Handles user interface (UI), high-level data processing, and IoT connectivity.
 
 <p align="center">
-  <img src="./images/System Architecture_2.png" width="300">
+  <img src="./images/System Architecture_2.png" width="500">
 </p>
+The image above shows the scope of modules managed by each microcontroller.
 
-### STM32 ↔ ESP32 Communication
-Similar to inter-core communication in a multi-core CPU, STM32 and ESP32 exchange data through a well-defined communication layer.
-To standardize packet formatting and ensure reliable data transfer, a custom communication library named InCore was developed. This library is inspired by [SerialTransfer](https://github.com/PowerBroker2/SerialTransfer).
+The project contains many modules. For detailed information about any module, please refer to the corresponding folder in the `doc` directory.
 
-Key features of the InCore library:
-- **Packet structure**:
-~~~
-[Start Byte] [Packet ID] [Payload Length] [Payload Bytes ...] [CRC8] [Stop Byte]
+> 📌 Note
+> The project is still under active development. If detailed documentation for a module is not yet available, please be patient. The documentation is continuously updated to help you better understand the project.
 
-Start Byte      : 0x7E
-Packet ID       : 1-byte packet identifier
-Payload Length  : Length of COBS-encoded payload
-Payload Bytes   : Actual data (up to 254 bytes)
-CRC8            : 8-bit checksum for error detection
-Stop Byte       : 0x81
-~~~
-- Error detection using CRC8.
-- COBS (Consistent Overhead Byte Stuffing) encoding to eliminate 0x00 bytes in the payload.
 
 ## III. Hardware Components
 | No.     |        Component       |  Role |
@@ -51,16 +39,21 @@ Stop Byte       : 0x81
 
 ## IV. Build and Run
 STM32 (Logical Core 1)
-- Open the project in Keil C under the core1_stm directory.
+- Open the project in Keil C under the `core1_stm` directory.
 - Include the required driver modules.
 - Build and flash the firmware to the STM32.
 
 ESP32 (Logical Core 2)
-- Open the project in VS Code with ESP-IDF under the core2_esp directory.
+- Open the project in VS Code with ESP-IDF under the `core2_esp` directory.
 - Include the required driver modules.
 - Build and flash the firmware to the ESP32.
 
-## V. 🔎 References 
+## V. 🔥 Hướng phát triển
+- Replace STM32 + ESP32 with STM32WB dual-core MCU as the main processor. 
+- Replace FreeRTOS with a **custom OS tailored specifically for smartwatch functionality**. 
+- Basic filesystem is functional but not fully optimized; needs improvement for safe shutdown and power-off handling.
+
+## VI. 🔎 References 
 - Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Madgwick_Filter/blob/master/Teensy/MPU9250/MPU9250_Madwick_Filter/MPU9250.h
 - https://github.com/microsoft/IoT-For-Beginners/tree/main
 - https://github.com/ZSWatch/ZSWatch
