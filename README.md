@@ -1,68 +1,66 @@
-# ⌚ Smart Watch
-## I. Giới thiệu
-Dự án **Smart Watch** này được xây dựng từ đầu, bao gồm cả **hardware** và **software**, sử dụng **FreeRTOS** để chạy trực tiếp trên **2 core**.
+# ⌚ Smart Watch Project
+## I. Overview
+The **Smart Watch** project is a from-scratch embedded system, covering both hardware design and firmware development. The system is built on FreeRTOS and follows a distributed dual-core architecture, where processing is divided across two microcontrollers.
 
 > 📌 Note:  
-> Trong giai đoạn đầu, phần cứng sử dụng các module sẵn có để tập trung phát triển phần mềm và ứng dụng. Sau khi phần mềm ổn định, phần cứng sẽ được tối ưu để phù hợp đúng với một smart watch.
+> In the early development phase, off-the-shelf hardware modules are used to accelerate software development and system validation. Once the firmware architecture is stabilized, the hardware will be redesigned and optimized to meet actual smartwatch constraints.
 
 
-## II. Kiến trúc hệ thống
-Để học sâu về **STM32** và **ESP32**, thay vì dùng CPU đa lõi, dự án kết hợp **hai vi điều khiển** để tạo hệ thống “đa lõi”:
-- **STM32F103C8T6**: quản lý giao tiếp với cảm biến và môi trường bên ngoài.  
-- **ESP32**: xử lý giao diện người dùng (UI) và kết nối IoT.
+## II. System Architecture
+<p align="center">
+  <img src="./images/System Architecture.png" width="300">
+</p>
 
-### Cơ chế giao tiếp STM32 ↔ ESP32
-Giống như CPU đa lõi cần cơ chế truyền thông nội bộ, ở đây **STM32** và **ESP32** trao đổi dữ liệu. Để chuẩn hóa định dạng gói tin, tôi đã triển khai một thư viện gọi là **"InCore"**. **InCore** được lấy cảm hứng từ thư viện [SerialTransfer](https://github.com/PowerBroker2/SerialTransfer).
+To gain deeper practical experience with both STM32 and ESP32, instead of using a **single multi-core MCU**, the system is designed using **two independent microcontrollers**, forming a logically dual-core system:
+- STM32F103C8T6: Responsible for sensor interfacing and interaction with external peripherals.
+- ESP32: Handles user interface (UI), high-level data processing, and IoT connectivity.
 
-Những tính năng của thư viện "InCore":
+<p align="center">
+  <img src="./images/System Architecture_2.png" width="300">
+</p>
+
+### STM32 ↔ ESP32 Communication
+Similar to inter-core communication in a multi-core CPU, STM32 and ESP32 exchange data through a well-defined communication layer.
+To standardize packet formatting and ensure reliable data transfer, a custom communication library named InCore was developed. This library is inspired by [SerialTransfer](https://github.com/PowerBroker2/SerialTransfer).
+
+Key features of the InCore library:
 - **Packet structure**:
 ~~~
-  Cấu trúc của Packet:
-  [Start byte] [Packet ID] [payload length byte] [Payload bytes ... ] [8-bit CRC] [Stop byte].
+[Start Byte] [Packet ID] [Payload Length] [Payload Bytes ...] [CRC8] [Stop Byte]
 
-  Trong đó:
-  - Start byte: 1 byte có giá trị cố định là 0x7E
-  - Packet ID: 1 byte định danh gói tin, mặc định là 0
-  - payload length byte: 1 byte xác định số byte dữ liệu đã được mã hóa COBS trong packet
-  - Payload bytes: Dữ liệu thực tế được truyền đi, tối đa 254 byte
-  - 8-bit CRC: 1 byte kiểm tra lỗi dữ liệu
-  - Stop byte: 1 byte có giá trị cố định là 0x81
+Start Byte      : 0x7E
+Packet ID       : 1-byte packet identifier
+Payload Length  : Length of COBS-encoded payload
+Payload Bytes   : Actual data (up to 254 bytes)
+CRC8            : 8-bit checksum for error detection
+Stop Byte       : 0x81
 ~~~
-- Kiểm tra lỗi bằng CRC8.
-- Consistent Overhead Byte Stuffing: thuật toán để đóng gói dữ liệu mà không chứa byte `0x00`
+- Error detection using CRC8.
+- COBS (Consistent Overhead Byte Stuffing) encoding to eliminate 0x00 bytes in the payload.
 
-## 📖 Mô tả
-### 1. Hardware
-
-| STT     |        Thiế bị           |  Vai trò |
+## III. Hardware Components
+| No.     |        Component       |  Role |
 | :-----: | :--------------------: | :--------------------: |
-|    1    | STM32F103C8T6         | Thu nhập dữ liệu từ môi trường qua sensor & ngoại vi  |
-|    2    | ESP32                 | Xử lí dữ liệu, UI & IoT |
-|    3    | TTP226                | Touch input  | 
-|    4    | DS18B20               |  Nhiệt độ |
-|    5    | MAX30102              |  Nhịp tim & SpO2|
-|    6    | MPU9250               |9-DOF IMU |
-|    7    | BMP280                |Áp suất & độ cao | 
+|    1    | STM32F103C8T6          | Sensor data acquisition and peripheral control  |
+|    2    | ESP32                  | Data processing, UI rendering, and IoT connectivity |
+|    3    | TTP226                 | Touch input interface  | 
+|    4    | DS18B20                | Temperature sensing |
+|    5    | MAX30102               | Heart rate and SpO₂ measurement|
+|    6    | MPU9250                | 9-DOF IMU |
+|    7    | BMP280                 | Barometric pressure and altitude measurement | 
 
-### 2. Driver Lib
-Đây là thông tin về API để sử dụng với từng loại driver hiện có trong dự án.
-| Thiết bị           | Trạng thái  | Kiểm thử   |  API     |
-| :-------------------- | :----------------: | :-----: | :-----:  |
-| TTP226                |       ✔️   |    ✔️   |  [Chi tiết](https://github.com/Nguyen-Dang-Trieu/Plant-water/blob/main/Doc/ATmega328p_API.md) |
-| DS18B20               |       ✔️   |    ✔️   |  [Chi tiết](https://github.com/Nguyen-Dang-Trieu/Smart_Watch/blob/main/Doc/API/DS18B20_API.md)|        
+## IV. Build and Run
+STM32 (Logical Core 1)
+- Open the project in Keil C under the core1_stm directory.
+- Include the required driver modules.
+- Build and flash the firmware to the STM32.
 
-## Hướng dẫn triển khai
-### STM32 (Core 1)
-- Mở Keil C → thư mục `cor1_stm`.
-- Copy những driver cần thiết.
-- Build và nạp firmware vào STM32.
-  
-### ESP32 (Core 2)
-- Mở `VS Code` với `ESP-IDF` → thư mục `core2_esp`.
-- Copy những driver cần thiết.
-- Build và nạp firmware vào ESP32.
+ESP32 (Logical Core 2)
+- Open the project in VS Code with ESP-IDF under the core2_esp directory.
+- Include the required driver modules.
+- Build and flash the firmware to the ESP32.
 
-## 🔎Reference 
+## V. 🔎 References 
 - Thư viện tham khảo cho MPU9250: https://github.com/DonovanZhu/9DoF_MARG_Madgwick_Filter/blob/master/Teensy/MPU9250/MPU9250_Madwick_Filter/MPU9250.h
 - https://github.com/microsoft/IoT-For-Beginners/tree/main
 - https://github.com/ZSWatch/ZSWatch
