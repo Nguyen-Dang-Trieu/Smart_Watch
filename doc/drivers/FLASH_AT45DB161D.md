@@ -1,9 +1,9 @@
 # Hướng dẫn sử dụng driver AT45DB161D
 
-Hình ảnh về thao tác 
+<p align="center">
+  <img src="./images/chart_flash.pngg" width="500">
+</p>
 
-
-Trước hết, ta cần khởi tạo flash và đảm bảo thời gian ổn định lại ic khi mới bật nguồn/ reset
 
 ### Khởi tạo flash
 ~~~c
