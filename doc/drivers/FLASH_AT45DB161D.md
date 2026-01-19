@@ -1,7 +1,7 @@
 # Hướng dẫn sử dụng driver AT45DB161D
 
 <p align="center">
-  <img src="./images/chart_flash.pngg" width="500">
+  <img src="./images/chart_flash.png" width="500">
 </p>
 
 
