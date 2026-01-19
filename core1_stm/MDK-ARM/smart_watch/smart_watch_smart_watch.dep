@@ -1,9 +1,12 @@
 Dependencies for Project 'smart_watch', Target 'smart_watch': (DO NOT MODIFY !)
 CompilerVersion: 6190000::V6.19::ARMCLANG
-F (startup_stm32f103xb.s)(0x691AB6D7)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o smart_watch/startup_stm32f103xb.o)
-F (../Core/Src/main.c)(0x691AB6D3)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/main.o -MD)
-I (..\Core\Inc\main.h)(0x691AB6D3)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+F (startup_stm32f103xb.s)(0x696DEB72)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o smart_watch/startup_stm32f103xb.o)
+F (../Core/Src/main.c)(0x696DED49)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/main.o -MD)
+I (..\Core\Inc\main.h)(0x696DEB70)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -14,6 +17,21 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x683D530E)
@@ -21,10 +39,28 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
-F (../Core/Src/stm32f1xx_it.c)(0x691AB6D1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_it.o -MD)
-I (..\Core\Inc\main.h)(0x691AB6D3)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\driver\FLASH_AT45DB161\AT45DB161D.h)(0x696DBD7B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
+F (../Core/Src/stm32f1xx_it.c)(0x696DF2B7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_it.o -MD)
+I (..\Core\Inc\main.h)(0x696DEB70)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -35,6 +71,21 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x683D530E)
@@ -42,10 +93,26 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
-I (..\Core\Inc\stm32f1xx_it.h)(0x691AB6D1)
-F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_ll_gpio.o -MD)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x696DEB6E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_msp.o -MD)
+I (..\Core\Inc\main.h)(0x696DEB70)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -56,9 +123,37 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
-F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_ll_pwr.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
+F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x696DE8F2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_timebase_tim.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -69,8 +164,264 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_gpio_ex.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_tim.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_tim_ex.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_gpio.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
-F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_ll_exti.o -MD)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_spi.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_dma.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_rcc.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_utils.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_exti.o -MD)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
@@ -82,8 +433,29 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
-F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_ll_rcc.o -MD)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -94,8 +466,25 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
-F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/stm32f1xx_ll_utils.o -MD)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_rcc.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
@@ -106,16 +495,573 @@ I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Incl
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
-I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_rcc_ex.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_gpio.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_dma.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_cortex.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_pwr.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_flash.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_flash_ex.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_hal_exti.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_tim.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
+F (C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_ll_usart.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
+F (../Core/Src/system_stm32f1xx.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/system_stm32f1xx.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+F (..\..\driver\FLASH_AT45DB161\AT45DB161D.c)(0x696DBD54)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/at45db161d.o -MD)
+I (..\..\driver\FLASH_AT45DB161\AT45DB161D.h)(0x696DBD7B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\Core\Inc\main.h)(0x696DEB70)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_system.h)(0x683D530E)
-F (../Core/Src/system_stm32f1xx.c)(0x683D530E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DHSI_VALUE="8000000" -DLSI_VALUE="40000" -DVDD_VALUE="3300" -DPREFETCH_ENABLE="1" -DSTM32F103xB-o smart_watch/system_stm32f1xx.o -MD)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_utils.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_spi.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_usart.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_gpio.h)(0x683D530E)
+I (..\..\driver\FLASH_AT45DB161\AT45DB161D_cmds.h)(0x696DBD98)
+I (..\..\driver\Delay\stm32f1xx_delay.h)(0x696DBC4C)
+F (..\..\driver\FLASH_AT45DB161\AT45DB161D.h)(0x696DBD7B)()
+F (..\..\driver\FLASH_AT45DB161\AT45_doc.md)(0x696B77A4)()
+F (..\..\driver\Delay\stm32f1xx_delay.c)(0x696DBBCF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stm32f1xx_delay.o -MD)
+I (..\..\driver\Delay\stm32f1xx_delay.h)(0x696DBC4C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xb.h)(0x683D530E)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\core_cm3.h)(0x683D5219)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_version.h)(0x683D5219)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_compiler.h)(0x683D5219)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Include\cmsis_armclang.h)(0x683D5219)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63885718)
 I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63885718)
 I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x683D530E)
+I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x696DE8F2)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x683D530E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_tim.h)(0x683D530E)
+I (C:\Users\ADMIN\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.6\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_bus.h)(0x683D530E)
+F (..\..\driver\Delay\stm32f1xx_delay.h)(0x696DBC4C)()
+F (..\..\driver\FLASH_AT45DB161\AT45DB161D_cmds.h)(0x696DBD98)()
+F (..\..\middleware\freeRTOS\atomic.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\croutine.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/croutine.o -MD)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\croutine.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\croutine.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\event_groups.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/event_groups.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\timers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\event_groups.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\event_groups.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\heap_4.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\list.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\list.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\message_buffer.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\port.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/port.o -MD)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\queue.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\queue.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\queue.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\semphr.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\stream_buffer.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/stream_buffer.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\stream_buffer.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\stream_buffer.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\task.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\tasks.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\timers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\stack_macros.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\timers.c)(0x68F907AE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/STM32F1xx_HAL_Driver/Inc -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I C:/Users/ADMIN/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.6/Drivers/CMSIS/Include -I ../../driver/Delay -I ../../driver/FLASH_AT45DB161 -I ../../middleware/freeRTOS-I./RTE/_smart_watch-IC:/Users/ADMIN/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/ADMIN/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32F103xB -DUSE_HAL_DRIVER-o smart_watch/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOS.h)(0x68F907AE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63885718)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63885718)
+I (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)
+I (..\Core\Inc\stm32f1xx_it.h)(0x696DEB6E)
+I (..\..\middleware\freeRTOS\projdefs.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portable.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\portmacro.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\mpu_wrappers.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\task.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\list.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\queue.h)(0x68F907AE)
+I (..\..\middleware\freeRTOS\timers.h)(0x68F907AE)
+F (..\..\middleware\freeRTOS\timers.h)(0x68F907AE)()
+F (..\..\middleware\freeRTOS\FreeRTOSConfig.h)(0x696DEEB9)()
+F (..\..\middleware\freeRTOS\deprecated_definitions.h)(0x68F907AE)()
