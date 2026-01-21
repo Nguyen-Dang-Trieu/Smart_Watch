@@ -60,3 +60,4 @@ ESP32 (Logical Core 2)
 - https://github.com/fbiego
 - Màn hình tròn, cảm ứng: https://www.proe.vn/1-28inch-touch-lcd
 - Filesystem SPIFFS stm32 + freeRTOS: cần thiết kế thread safe. https://github.com/pellepl/spiffs + AT45DB161D-SU IC Nhớ Flash 16Mbit 8-SOIC (có thể dùng loại E để thay thế)
+
