@@ -6,10 +6,10 @@
 Kích thước block được tính theo byte, phổ biến là: 512B, 1KB, 2KB, ...  
 Trong tài liệu S-FAT, thuật ngữ *sector* sẽ được dùng để chỉ các block có khả năng read/write.
 
-**Ví dụ**: Một file `foo.txt` có kích thước là 1400 bytes được lưu trữ trong một filesystem có kích thước mỗi sector = 512 bytes. Điều gì sẽ xảy ra ?
+**Ví dụ**: Một file `foo.txt` có kích thước là `1400 bytes` được lưu trữ trong một filesystem có kích thước mỗi sector = 512 bytes. Điều gì sẽ xảy ra ?
 
 <p align="center">
-  <img src="./images/basic_sector.png" width="450">
+  <img src="./images/basic_sector.png" width="550">
 </p>
 
 - 2 sector đầu tiên sẽ đầy: 512 * 2 = 1024 bytes.
@@ -17,17 +17,17 @@ Trong tài liệu S-FAT, thuật ngữ *sector* sẽ được dùng để chỉ 
 
 Hệ thống Filesystem của tôi sẽ dựa trên **FAT (File Allocation Table)**. Và tôi đặt tên cho dự án filesystem này là **Simple-FAT**.
 
-Các thành phần cơ bản của **Simple-FAT**.
+Các thành phần cơ bản của **Simple-FAT**:
 - `superblock`: Quản lí toàn bộ thông tin về FAT như sector, size sector, cluster, ...
 - `directory area`: Nơi lưu trữ thông tin của file đã được tạo.
 - `file allocation table`: Theo dõi các cluster nào đã được sử dụng.
 - `data area`: Dữ liệu thực sự của file được lưu trữ ở đây.
 
 <p align="center">
-  <img src="./images/cau_truc_sfat.png" width="450">
+  <img src="./images/cau_truc_sfat.png" width="650">
 </p>
 
-Tiếp tục với ví dụ bên trên, lúc này các thành phần của SFAT sẽ chứa.
+Tiếp tục với ví dụ bên trên, lúc này các thành phần của **Simple-FAT** sẽ chứa.
 
 **Directory entry**
 <p align="center">
@@ -56,7 +56,7 @@ Tiếp tục với ví dụ bên trên, lúc này các thành phần của SFAT 
 ### 1. Superblock
 Superblock là vùng đầu tiên của filesystem, dùng để mô tả toàn bộ layout của filesystem. Mọi thông tin cần thiết để mount và truy cập filesystem đều được lưu trữ tại đây.
 
-Superblock có kích thước là `44 bytes`. Với kích thước như này đủ để quản lí tất cả các thông tin trong filesystem bất kể có bao nhiêu bytes đi chăng nữa.
+Superblock có kích thước là `44 bytes`. Với kích thước như này đủ để quản lí tất cả các thông tin trong filesystem bất kể có bao nhiêu file đi chăng nữa.
 
 ~~~c
 typedef struct SuperBlock
@@ -76,15 +76,16 @@ typedef struct SuperBlock
 <p align="center">
   <img src="./images/superblock_struct.png" width="350">
 </p>
-Tổng bytes cho vùng superblock: 44 bytes -> Chiếm 1 sector.
 
-Và ở đây, bạn có thể thắc mắc là cluster là gì?
+Tổng bytes cho vùng **superblock**: `44 bytes` → Chiếm 1 sector.
+
+Và ở đây, bạn có thể thắc mắc là `cluster` là gì?
 > Trong filesystem, cluster là đơn vị cấp phát (allocation unit) – tức là đơn vị nhỏ nhất mà hệ thống dùng để cấp phát dung lượng cho file.
 
-Trong Simple-FAT, tôi chọn 1 cluster = 1 sector. Có thể tùy chỉnh hệ thống 1 cluster = 2 sector, ...
+Trong **Simple-FAT**, tôi chọn `1 cluster` = `1 sector`. Có thể tùy chỉnh hệ thống 1 cluster = 2 sector, ...
 
 ### 2. Directory area
-Chứa các directory entry, mỗi entry lưu trữ metadata của một file trong hệ thống.
+Chứa các directory entry, mỗi entry lưu trữ `metadata` của một **file** trong hệ thống.
 
 ~~~c
 typedef struct __attribute__((packed))
@@ -99,11 +100,11 @@ typedef struct __attribute__((packed))
   <img src="./images/directory_struct.png" width="350">
 </p>
 
-Số lượng tối đa file tối đa của SFAT là: 32 file.   
+Số lượng tối đa file tối đa của **Simple-FAT** là: `32 file`.   
 → Tổng bytes cần thiết cho vùng này: 32 * 16 = 512 bytes → Chiếm 1 sector.
 
 ### 3. File Allocation Table và Data Blocks
-- Mỗi fat entry: có kích thước là 2 bytes.
+- Mỗi fat entry: có kích thước là `2 bytes`.
 - Số sector Data Area cần quản lý: 4096 - 1 - 1 - 16 = 4078 sector  
 → Cần 4078 FAT entry.
 
@@ -115,7 +116,7 @@ Sơ đồ bên dưới thể hiện mối quan hệ giữa một **FAT entry** v
   <img src="./images/fat_datablock.png" width="400">
 </p>
 
-Để hiểu rõ hơn, hãy xem ví dụ sau: Tạo một file `foo.txt` có kích thước 1400 bytes. Hình ảnh dưới đây minh họa cách nội dung file này được biểu diễn trong FAT và Data Block.
+Để hiểu rõ hơn, hãy xem ví dụ sau: Tạo một file `foo.txt` có kích thước `1400 bytes`. Hình ảnh dưới đây minh họa cách nội dung file này được biểu diễn trong FAT và Data Block.
 <p align="center">
   <img src="./images/Ex_fat_datablock.png" width="400">
 </p>
@@ -126,7 +127,7 @@ Sơ đồ bên dưới thể hiện mối quan hệ giữa một **FAT entry** v
 
 ### 4. Tổng quan phân bố sector của các thành phần trong filesystem
 <p align="center">
-  <img src="./images/sector_region.png" width="500">
+  <img src="./images/sector_region.png" width="650">
 </p>
 
 > 📌 **Lưu ý**  
@@ -137,10 +138,10 @@ Sơ đồ bên dưới thể hiện mối quan hệ giữa một **FAT entry** v
 ## III. Các thao tác trên filesystem
 ### 1. Init S-FAT
 ~~~c
-#define SFAT_TOTAL_SECTORS        4096
-#define SFAT_SECTORS_PER_CLUSTER  1      // Sectors of per cluster
-#define SFAT_BYTES_PER_SECTOR     512    // Bytes of per sector
-#define SFAT_MAX_DIRENTRIES       32  // Total number of dir entries
+#define SFAT_TOTAL_SECTORS        4096   // Tổng số sectors
+#define SFAT_SECTORS_PER_CLUSTER  1      // Sectors cho mỗi cluster
+#define SFAT_BYTES_PER_SECTOR     512    // Bytes trên mỗi sector
+#define SFAT_MAX_DIRENTRIES       32     // Tổng số file
 
 SuperBlock_t superblock = {
     .total_sectors        = SFAT_TOTAL_SECTORS,
@@ -162,7 +163,7 @@ SuperBlock_t superblock = {
 typedef struct FileDescriptor {
   DirEntry_t *dir_entry;  // Trỏ tới dir entry của file.
   uint32_t    offset;     // vị trí đọc/ghi hiện tại của file.
-  uint8_t     mode;       // Chế độ hoạt động khi write
+  uint8_t     mode;       // Chế độ hoạt động 
   bool        used;       // Cờ đánh dấu file descriptor đang được sử dụng hay không.
 } FD_t;
 ~~~
